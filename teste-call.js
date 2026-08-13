@@ -1,4 +1,4 @@
-function exibeInfos() {
+/* function exibeInfos() {
  console.log(this.nome, this.email)
 }
 
@@ -7,4 +7,4 @@ const user = {
  email: 'm@m.com'
 }
 
-exibeInfos.call(user)
+exibeInfos.call(user) */
