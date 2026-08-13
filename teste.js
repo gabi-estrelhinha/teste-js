@@ -10,4 +10,13 @@ const elemento = {
     }
 }
 
-elemento.exibirIinformacoes();
+//elemento.exibirIinformacoes();
+
+//const exibir = elemento.exibirInformacoes
+//exibir();
+
+const exibir = function() {
+    console.log(this.nome, this.largura, this.tipo, this.local);
+}
+const exibirNome = exibir.bind(elemento);
+exibirNome();
